@@ -1,0 +1,27 @@
+{
+  "name": "fastcars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git push deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimthedev/fastcars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimthedev/fastcars/issues"
+  },
+  "homepage": "https://github.com/jimthedev/fastcars#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "es6-promise": "^3.2.1",
+    "fetch-jsonp": "^1.0.0",
+    "jquery": "^3.1.0"
+  }
+}
