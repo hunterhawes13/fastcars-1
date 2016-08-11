@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "git push deploy",
+    "start": "http-server -p $PORT",
+    "deploy": "git push deploy -f",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
     "bootstrap": "^3.3.7",
     "es6-promise": "^3.2.1",
     "fetch-jsonp": "^1.0.0",
+    "http-server": "^0.9.0",
     "jquery": "^3.1.0"
   }
 }
